@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 import { FaX } from "react-icons/fa6";
 
 const teamMembers = [
@@ -102,7 +102,7 @@ const TeamPage = () => {
         </div>
 
         <div className="mt-20 grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-3">
-          {teamMembers.map((member, _) => (
+          {teamMembers.map((member) => (
             <div
               key={member.id}
               className="bg-foreground/10 rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"
@@ -171,7 +171,7 @@ const TeamPage = () => {
         <div className="mt-20 text-center">
           <h2 className="text-3xl font-bold text-foreground">Join Our Team</h2>
           <p className="mt-4 max-w-2xl mx-auto text-lg text-gray-500">
-            We're always looking for talented individuals to join our team.
+            We&apos;re always looking for talented individuals to join our team.
             Check out our current openings.
           </p>
           <div className="mt-6">

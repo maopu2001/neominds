@@ -9,9 +9,9 @@ export default function ContactPage() {
 
         <div className="prose prose-lg">
           <p className="mb-4">
-            Have questions or want to learn more about NeoMinds? We'd love to
-            hear from you! Fill out the form below or reach out to us using the
-            contact information provided.
+            Have questions or want to learn more about NeoMinds? We&apos;d love
+            to hear from you! Fill out the form below or reach out to us using
+            the contact information provided.
           </p>
 
           <form className="mt-8 space-y-6">
